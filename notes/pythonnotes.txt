@@ -1,5 +1,3 @@
-
-
 Agenda : Python
 
 - INTRODUCTION
