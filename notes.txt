@@ -1,0 +1,71 @@
+
+
+Agenda :
+
+- String
+- Lists
+- Tuples
+- Dictionary
+- Set
+
+- Assignment :
+
+* List : Maintain a product catalog
+* Dict : Modify the customer orders
+
+String :
+
+- single ,double quotes represents string 
+
+eg :
+'hello' "hello"
+
+a='''hello everyone,this is a multiline string statement'''
+
+Slicing : specify the start and end index and return a part of the string
+
+negative indexing : start the slicig from the end of the string
+
+escape characters :\,\\,\n,\t,\000,\xhh,\r
+
+
+List:(ordered and mutable)
+
+- store sequence of data
+- Ordered
+- Access the elements of the list using index
+- mutable (changeable)
+- Allows duplicate values
+
+
+join : +,extend,append
+
+Tuple:
+
+- Store multiple items in a single variable
+- ordered
+- Unchangeable(immutable)
+- allows duplicate 
+- Access the elements using index
+
+join : +
+
+multiple tuple value : *
+
+
+Dictionary :
+
+- store data value (key : value pair)
+- ordered
+- DO NOT ALLOW DUPLICATES
+- changeable 
+
+Try: copy()
+
+Set :
+
+- Store values in single variable
+- unordered
+- Unchangeable
+- unindexed
+- Duplicates are not allowed
