@@ -2,7 +2,10 @@ import add
 import subract
 import hello
 
-hello.welcome()
+#hello.welcome()
 
-add.add(a="10",b="20")
-subract.subtract(20,10)
+
+a=int(input("enter the value of a :"))
+b=int(input("enter the value of a :"))
+add.add(a,b)
+
