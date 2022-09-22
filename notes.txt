@@ -1,0 +1,106 @@
+
+
+Agenda :
+
+- Function 
+*definition and paramaters
+- variable scope
+- Keyword arguments - args
+- default values
+
+
+- Lambda expression(filter/map/reduce)
+- Generators
+- Decorators
+- files(writing & reading the contents of files)
+- Modules and packages
+
+
+Function :
+
+- block of code that performs a task
+- You can pass data as parameters to the Function
+- can return a result
+
+def fn_name():
+//write code here
+
+fn_name()
+
+passing arguments to function :
+
+- no of parameters should match the function definition
+- comma seperated arguments - multiple parameters
+
+
+parameters or arguments ???
+- same thing to pass the value
+
+parameter : variable listed inside the function definition
+arguments : values sent to the function
+
+args : arbitrary arguments
+ 
+* before the parameter name in the function
+
+Keyword Arguments :
+
+ send arguments in key = value syntax 
+
+ - do not care about the order of the arguments
+ - Know the no the arguments
+
+
+ Arbitrary keyword arguments 
+ 
+ - **kwargs
+
+ Default : default parameter value
+
+ - default value wil be assigned if you make a function call withour parameter
+
+Retun values : use return statement
+
+pass statement : function is empty
+
+Recursion : function that call itself for a number of times
+
+Lambda expression : 
+
+it is a anonymous function
+
+- can take no of args but have a single line of expression
+
+lamba arguments : expression
+
+
+Lambda vs function 
+
+
+- single line expression --- multiple lines
+- short operation - complex
+- not so good with code readability ---- good code readability
+
+
+Filter :
+
+filter data based on cond
+
+filter(function,iterable)
+
+map :
+
+map the function logic with all the elements in the iterable 
+
+map(function,iterable)
+
+reduce : 
+
+does a repetitive operation over the elements in the iterable.
+reduce(function,iterable)
+
+
+
+
+
+
