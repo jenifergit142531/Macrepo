@@ -1,0 +1,81 @@
+
+
+Agenda :
+
+- object
+- Class
+- static method
+- private method
+- Inheritance
+- Abstract class(abc)
+* method overriding
+
+
+
+Assignment :
+
+- creata a customer class 
+
+Data fields : cusId,cusName,Productname,Quantity,totalprice,rate=??
+
+
+Object : real time entity
+Class : collection of objects
+
+self : refers to the current instance of the Object(something like 'this' keyword)
+
+constructor : initialize the class
+
+__init__
+
+Built in functions:
+
+- getattr(obj,name,default) : access the attributes of the object
+- setattr(oj,name,vale): set a value to the attribute
+- delattr(obj,name) : deletes a specific attribute
+- hasattr(obj,name) : return true if the object contains the attribute,otherwise false
+
+
+Static method :
+
+- bound to the class and not object
+- it cant modify class state
+
+@staticmethod
+
+Inheritance :
+ - Deriving the properties of parent class to derived class(child class)
+
+ class bcn:
+
+ class dcn(bcn)
+
+ - single : 1 bc ---> 1dc
+ - multiple : 1bc,2bc,3bc-----> 1 dc
+ - multilevel : 1bc --->1 dc(bc)----->2 dc
+
+
+ private method  : not accessed outside the class
+
+ double underscore  "__"
+
+Abstraction :
+
+" what function does" but not  "how it does"
+
+ Abstract method :
+
+- contains method with no body
+- these methods are implemented by child class
+- Both abstract and concrete methods
+
+
+
+
+
+
+
+
+
+
+
