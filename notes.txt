@@ -48,3 +48,25 @@ STEP 6 :cursor.close(),connection.close()
 Close the connection and cursor to the database.
 
 Step 7: catch the exception
+
+Unit Testing :
+
+- Identify the errors in the piece of code
+- test case : sample test data
+- output : actual value ,expected value
+
+Test output :
+
+1.OK : if all the test cases are passed
+2.Failure : if any of the test case is failed
+3.Error : Assertion error(syntax,data passedd...)
+
+
+pdb : Python Debugger
+
+support :
+
+- stepping through code line by line
+- setting breakpoint
+- source code listing
+- viewing the stack traces 
