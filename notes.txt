@@ -1,0 +1,50 @@
+Agenda: SQLite (version 3)
+
+- Introduction about SQLite
+- Commands
+- Interacts with python(CRUD)
+- Unit testing
+- Debugging
+
+
+SQLite :
+
+- Open source.self contained,stand alone
+- Relational database(table - rows & columns)
+- Seperate server process
+- Light weight DB to use it convenient with any application
+- files on your disk(.db)
+
+
+SQLite Commands :
+
+DDL :Data definition language - CREATE,ALTER,DROP
+DML :Data manipulation language - INSERT,UPDATE ,DELETE
+DQL : Data query language - SELECT
+
+
+How to connect to SQLite Database in Python :
+
+STEP 1: import sqlite3 module
+
+This will include sqlite3 libraries and helps to connect to the database.
+
+STEP 2: Connect()
+
+Establish the connection to the sqlite3 database.
+
+STEP 3: cursor() 
+
+defines the sqlite3 commands(insert,update,delete,select,CREATE)
+
+STEP 4: execute()
+
+run the sqlite3 query and return the result set
+
+STEP 5 : read the result (fetchall(),fetchone(),fetchmany())
+
+STEP 6 :cursor.close(),connection.close()
+
+Close the connection and cursor to the database.
+
+Step 7: catch the exception
