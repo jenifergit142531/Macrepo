@@ -1,0 +1,106 @@
+Agenda:
+
+- Unix basics
+- Unix commands
+- File system
+- Access control list rwx
+- chmod
+- shells
+- different types of shells
+- shell files
+- read and echo commands in shell script
+
+
+Unix :
+
+- Operating system - set of programs that act as a link between the computer and user
+
+- developed on 1969 - ken thompson.,dennis,douglas,joe at bell labs
+
+Unix user commands :
+
+- whoami : show your username
+- id : print user identity
+- groups : show which group user belongs 
+- passwd : change user passwd
+- who : find out who is logged in the system
+- last : show the history of logins
+
+Time and date commands :
+- cal : displays the current month calendar
+- date :show current date and time
+- sleep :wait for a given number of seconds
+- uptime : find out how long the system has been up
+
+Unix shell commands :
+
+clear : clear screen
+history : show history of previous commands 
+
+Getting help in unix :
+
+man - view manual page for unix commands 
+
+Unix status commands :
+
+hostname - show the server hostname
+w - displays system load,who logged in and what they are doing
+uname - print unix system information
+
+Networking commands :
+ifconfig - show the ip address
+ping - check if the remote host is reachable
+netstat - show network stats and routing information
+
+process commands :
+ps - list process
+top - show tasks and system status
+kill - kill the process
+
+Unix directory commands :
+cd - change directory
+mkdir - create directory
+rmdir - remove the directory
+ln - create links to files and directories
+pwd - present working directory
+
+Unix files commands :
+ls - listing the files
+cp - copy the files
+rm - remove files
+mv - rename or move files
+chmod - change file/directory permissions
+chown - change file/directory ownership
+
+file permission :(read (r),write(w),execute(x))
+ first bit : d : directory or - :file
+1.owner permission(u):2-4 
+2.group permission(g):5-7
+3.other permission (o):8-10
+
+add permission : +
+remove permission : - 
+
+
+Unix file system :
+- ordinary  : data /text ,code(program instructions)
+- directory : holds multiple files (ordinary files ,specialfiles)
+- special files : represent a physical device 
+- pipes : flow of data (|)
+- sockets : client server architecture (inter process communication)
+- symbolic links : other files in the file system
+
+
+Shell scripting :
+ - program to write commands for the shell to execute 
+
+ Two shells :
+ - Bourne again shell(.bash) $
+ - C shell (.csh) %
+
+
+
+
+
+
+
