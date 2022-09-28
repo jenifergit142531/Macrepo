@@ -1,0 +1,11 @@
+Agenda :
+
+- Conditional statements 
+- Looping 
+- Command line arguments
+- create function
+- wild cards(*,?)
+- Test Command
+- tput 
+- sed
+- awk programming
